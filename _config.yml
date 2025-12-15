@@ -1,44 +1,27 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+# --- Infos Principales ---
+title: ASC Balan Athlétisme
+email: ascbalan@hotmail.fr
+description: >-
+  Site officiel de l'ASC Balan Athlétisme. Club de course à pied hors stade,
+  trail et running dans l'Ain (01), affilié à la FFA.
+minimal_mistakes_skin: air # Le thème visuel (clair et aéré)
 search: true
 
-# Build settings
+# --- Paramètres de construction ---
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# --- URLs et Permaliens ---
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Europe/Paris
+
+# --- Structure des dossiers (Ta demande) ---
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# --- Exclusions (Pour ne pas ralentir le site) ---
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -47,8 +30,9 @@ exclude:
   - .Rproj.user
   - "*.Rproj"
   - .gitignore
+  - .sass-cache
 
-# Plugins (previously gems:)
+# --- Plugins ---
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -57,38 +41,33 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# --- Auteur / Barre latérale ---
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "ASC Balan"
+  avatar : "/assets/images/logo-balan2.png" # <-- Ton nouveau logo ici
+  bio    : "Club de course à pied route (et trail) à Balan"
+  location: "Balan, Ain (01)"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/ascbalan01/"
+    - label: "Contact Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:ascbalan@hotmail.fr"
 
+# --- Pied de page ---
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/ascbalan01/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:ascbalan@hotmail.fr"
 
+# --- Configuration des mises en page (Defaults) ---
 defaults:
-  # _posts
+  # 1. Pour les articles de blog (dans _posts)
   - scope:
       path: ""
       type: posts
@@ -96,20 +75,15 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
-  # _pages
+
+  # 2. Pour les pages fixes rangées dans le dossier "_pages" (Ta structure)
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+      permalink: /:basename/ # Permet d'avoir mapage.html sans le dossier devant
