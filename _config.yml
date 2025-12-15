@@ -8,6 +8,7 @@ minimal_mistakes_skin: contrast
 search: true
 logo: "/assets/images/logo-balan2.png"
 
+
 # --- Paramètres de construction ---
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -16,6 +17,8 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
+date_format: "%d/%m/%Y"  # "%-d %B %Y"
+locale: fr-FR
 timezone: Europe/Paris
 
 # --- Structure des dossiers (Ta demande) ---
@@ -58,6 +61,7 @@ author:
 
 # --- Pied de page ---
 footer:
+  since: "2025"
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -74,8 +78,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
+      show_date: true
       comments: false
       share: true
       related: true
