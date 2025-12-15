@@ -1,7 +1,5 @@
 # --- Menu de Navigation (Haut de page) ---
 main:
-  - title: "Accueil"
-    url: "/"
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -11,8 +9,8 @@ main:
   - title: "About"
     url: /about/
   - title: "Le Club"
-    url: "/club/"
+    url: /club/
   - title: "Entraînements"
-    url: "/entrainements/"
+    url: /entrainements/
   - title: "Contact"
-    url: "/contact/"
+    url: /contact/
