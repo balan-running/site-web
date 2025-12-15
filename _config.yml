@@ -4,8 +4,9 @@ email: ascbalan@hotmail.fr
 description: >-
   Site officiel de l'ASC Balan Athlétisme. Club de course à pied hors stade,
   trail et running dans l'Ain (01), affilié à la FFA.
-minimal_mistakes_skin: air # Le thème visuel (clair et aéré)
+minimal_mistakes_skin: contrast
 search: true
+logo: "/assets/images/logo-balan2.png"
 
 # --- Paramètres de construction ---
 markdown: kramdown
