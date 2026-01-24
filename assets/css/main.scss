@@ -8,21 +8,18 @@
   color: #900E83;
 }
 
-/* --- AJOUT POUR L'IMAGE D'EN-TÊTE --- */
-/* On force l'image à rester calée sur le haut (top) */
+/* --- CONFIGURATION DE L'IMAGE D'ACCUEIL (HERO) --- */
+
 .page__hero--overlay {
+  /* On cale l'image en haut pour ne pas couper les têtes */
   background-position: top center !important;
+  /* Hauteur sur grand écran (ordinateur) */
+  min-height: 450px !important;
+  /* Supprime les marges internes qui pourraient décaler l'image */
+  padding: 0 !important;
 }
 
-/* Optionnel : si tu veux que l'image soit un peu moins haute sur mobile */
-@media (max-width: 768px) {
-  .page__hero--overlay {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
-  }
-}
-
-/* Supprime tout texte, bouton ou filtre de texte sur l'image d'accueil */
+/* Suppression de tout le texte et des boutons sur l'image */
 .page__hero-container,
 .page__hero-content,
 .page__hero--overlay h1,
@@ -31,8 +28,18 @@
   visibility: hidden !important;
 }
 
-/* On s'assure que l'image garde une belle taille malgré l'absence de texte */
-.page__hero--overlay {
-  min-height: 450px !important; /* Ajuste cette valeur pour voir plus ou moins l'image */
-  background-position: top center !important;
+/* --- AJUSTEMENTS POUR MOBILE (Écrans de moins de 768px) --- */
+@media (max-width: 768px) {
+  .page__hero--overlay {
+    /* Comme l'image est très large, on réduit drastiquement la hauteur sur mobile */
+    /* Cela permet de voir une plus grande partie de la largeur de la photo */
+    min-height: 200px !important;
+
+    /* On s'assure que l'image couvre tout l'espace disponible */
+    background-size: cover !important;
+
+    /* On réduit le padding pour gagner de la place */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }
