@@ -2,8 +2,37 @@
 ---
 @import "minimal-mistakes";
 
+/* Ta couleur de titre personnalisée */
 .archive__item-title a,
 .page__title a {
   color: #900E83;
 }
 
+/* --- AJOUT POUR L'IMAGE D'EN-TÊTE --- */
+/* On force l'image à rester calée sur le haut (top) */
+.page__hero--overlay {
+  background-position: top center !important;
+}
+
+/* Optionnel : si tu veux que l'image soit un peu moins haute sur mobile */
+@media (max-width: 768px) {
+  .page__hero--overlay {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+  }
+}
+
+/* Supprime tout texte, bouton ou filtre de texte sur l'image d'accueil */
+.page__hero-container,
+.page__hero-content,
+.page__hero--overlay h1,
+.page__hero--overlay .page__lead {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* On s'assure que l'image garde une belle taille malgré l'absence de texte */
+.page__hero--overlay {
+  min-height: 450px !important; /* Ajuste cette valeur pour voir plus ou moins l'image */
+  background-position: top center !important;
+}

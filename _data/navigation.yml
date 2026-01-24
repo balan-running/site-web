@@ -1,16 +1,10 @@
 # --- Menu de Navigation (Haut de page) ---
 main:
-  - title: "Posts"
+  - title: "Infos"
+    url: /
+  - title: "Actus"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
-  - title: "Le Club"
-    url: /club/
-  - title: "Entraînements"
-    url: /entrainements/
-  - title: "Contact"
-    url: /contact/
+  - title: "<i class='fas fa-fw fa-envelope'></i>"
+    url: "mailto:ascbalan@hotmail.fr"
+  - title: "<i class='fab fa-fw fa-instagram'></i>"
+    url: "https://www.instagram.com/ascbalan01/"
