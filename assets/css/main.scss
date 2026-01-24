@@ -33,7 +33,7 @@
   .page__hero--overlay {
     /* Comme l'image est très large, on réduit drastiquement la hauteur sur mobile */
     /* Cela permet de voir une plus grande partie de la largeur de la photo */
-    min-height: 200px !important;
+    min-height: 150px !important;
 
     /* On s'assure que l'image couvre tout l'espace disponible */
     background-size: cover !important;
