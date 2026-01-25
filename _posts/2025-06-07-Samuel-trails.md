@@ -8,7 +8,7 @@ tags:
   - trail
 ---
 
-![](/assets/images/posts/Samuel-trails-1.jpg){: .align-left width="52%" }
+![]({{ site.baseurl }}/assets/images/posts/Samuel-trails-1.jpg){: .align-left width="52%" }
 
 Comme d’habitude, la participation à une course est pour moi d’abord une découverte d’un nouveau lieu voire d’une nouvelle région...
 
