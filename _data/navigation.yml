@@ -4,10 +4,10 @@ main:
     url: /
   - title: "Actus"
     url: /posts/
-  - title: "Trombi"
-    url: /trombi/
   - title: "Nous rejoindre"
     url: /adhesion/
+  - title: "Trombi"
+    url: /trombi/
   - title: "Notre association"
     url: /asso/
   - title: "Guide du coureur"
