@@ -1,5 +1,5 @@
 ---
-title: "Trail de Monaco (8 février 2025, 30 km, 1800 D+), Trail des Maures (10 Mai 2025-32 km, 1800 D+)"
+title: "Trail de Monaco (8 février 2025, 30 km, 1800 D+), Trail des Maures (10 mai 2025, 32 km, 1800 D+)"
 date: 2025-06-07
 author: "Samuel"
 categories:
