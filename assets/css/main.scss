@@ -84,13 +84,14 @@
 
 
 /* ==========================================================================
-   CONFIGURATION FINALE : LAYOUT CIBLÉ (SINGLE + ARCHIVE)
+   CONFIGURATION FINALE : TOUT LE SITE SAUF LA PAGE D'ACCUEIL (SPLASH)
    ========================================================================== */
 
-/* L'astuce est ici : on englobe TOUT (PC et Mobile) dans ces deux classes.
-   Ainsi, la page "Splash" (Accueil) n'est pas touchée. */
-.layout--single,
-.layout--archive {
+/* L'ASTUCE ULTIME :
+   On cible le "body" de toutes les pages qui NE SONT PAS (.not) la page Splash.
+   Comme ça, /posts/, /contact/, /articles/... tout fonctionnera automatiquement.
+*/
+body:not(.layout--splash) {
 
   /* --- 1. VERSION ORDINATEUR (Écrans larges > 640px) --- */
   @media (min-width: 40.01em) {
@@ -99,9 +100,7 @@
     #main {
       display: block !important;
       max-width: 1280px;
-      margin: 0 auto !important; /* Centre le site sur les grands écrans */
-
-      /* On remet de l'air sur les côtés */
+      margin: 0 auto !important;
       padding-left: 2em !important;
       padding-right: 2em !important;
       box-sizing: border-box !important;
@@ -112,7 +111,7 @@
       float: right !important;
       width: 20% !important;
       margin-right: 0 !important;
-      margin-left: 5% !important; /* Espace entre texte et sidebar */
+      margin-left: 5% !important;
       position: sticky !important;
       top: 2em;
     }
@@ -124,7 +123,6 @@
       padding-right: 0 !important;
     }
 
-    /* Nettoyage marges par défaut */
     .initial-content {
       padding-left: 0 !important;
     }
@@ -142,7 +140,7 @@
     }
 
     /* B. LE TEXTE (Article + Liste) -> POSITION 1 */
-    .page, article.page, .archive {
+    .page, article.page, .archive, .entries-grid, .entries-list {
       order: 1 !important;
       width: 100% !important;
       float: none !important;
@@ -168,10 +166,7 @@
       width: 100% !important;
       float: none !important;
       position: static !important;
-
-      /* Annulation de la marge gauche du PC */
       margin: 30px 0 0 0 !important;
-
       padding: 0 !important;
       box-sizing: border-box !important;
 
@@ -182,7 +177,7 @@
       row-gap: 5px !important;
       grid-template-rows: auto auto auto !important;
 
-      /* --- STYLES VISUELS MOBILE (Imbriqués pour cibler la sidebar) --- */
+      /* Styles internes */
       img {
         width: 100% !important;
         max-width: 100px !important;
@@ -209,14 +204,11 @@
         hyphens: auto !important;
       }
 
-      /* --- PLACEMENT MANUEL SYLVIE & VINCENT --- */
-
-      /* Colonne 1 : Sylvie */
+      /* PLACEMENT MANUEL */
       img:nth-of-type(1) { grid-column: 1 !important; grid-row: 1 !important; }
       h3:nth-of-type(1)  { grid-column: 1 !important; grid-row: 2 !important; }
       p:nth-of-type(1)   { grid-column: 1 !important; grid-row: 3 !important; }
 
-      /* Colonne 2 : Vincent */
       img:nth-of-type(2) { grid-column: 2 !important; grid-row: 1 !important; }
       h3:nth-of-type(2)  { grid-column: 2 !important; grid-row: 2 !important; }
       p:nth-of-type(2)   { grid-column: 2 !important; grid-row: 3 !important; }
