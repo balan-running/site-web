@@ -8,7 +8,10 @@ tags:
   - trail
 ---
 
+![](/assets/images/posts/Samuel-trails-1.jpg){: .align-left width="52%" }
+
 Comme d’habitude, la participation à une course est pour moi d’abord une découverte d’un nouveau lieu voire d’une nouvelle région...
+
 Comme d’habitude, je ne regarde pas le profil et le parcours de la course sur laquelle je me suis engagé car c’est d’abord un week-end très convivial entre copains...
 
 Comme d’habitude, je ne suis pas vraiment assidu dans la préparation d’un trail... je fais des sorties opportunes de vélo, un maximum de ski (de tous les skis pourvu que cela glisse!), un peu de gym (mot utilisé par les plus de 40 ans, du renforcement musculaire pour les moins âgés), quelques-unes des meilleures séances au monde proposées par nos coachs préférés de l’ASC Balan et aucune montée ni descente en courant !..., je participe tout de même au petit format (12km et moins de 500 de D+, il ne faut pas abuser !) des trails de Pérouges et de Douvres aussi parce que c’est pour le sou des écoles ... avant celui des Maures (après la redécouverte de muscles sur le trail de Monaco 30 km, 1800 de D+). Comme d’habitude, je n’oublie rien au niveau logistique de ce qui participe au week-end convivial mais la moitié des trucs utiles pour faire le trail... Il faut tout de même souligner que je m’améliore (ou pas!) : Je n’ai pas oublié notre magnifique nouveau maillot de club au trail des Maures contrairement à celui de Monaco mais ma montre sur le trail des Maures (Merci à Jean-Pierre mon équipementier préféré pour m’avoir prêté sa montre et l’ancien maillot du club sur le trail de Monaco même si au vu de nos différences de gabarit, je portais un maillot comme ceux portés par les footballeurs des années 90 lorsque les équipementiers allemands ou anglosaxons ne savaient pas que certains sportifs pouvaient être d’une taille plus petite que le XL)
