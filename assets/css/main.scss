@@ -164,8 +164,8 @@ body:not(.layout--splash) {
 
       /* Styles internes */
       img {
-        width: 100% !important;
-        max-width: 100px !important;
+        width: auto !important;
+        max-height: 350px !important;
         height: auto !important;
         margin: 0 auto !important;
         display: block !important;
