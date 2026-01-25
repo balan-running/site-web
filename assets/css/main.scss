@@ -84,140 +84,142 @@
 
 
 /* ==========================================================================
-   CONFIGURATION FINALE : LAYOUT SIDEBAR & CONTENU
+   CONFIGURATION FINALE : LAYOUT CIBLÉ (SINGLE + ARCHIVE)
    ========================================================================== */
 
-/* --- 1. VERSION ORDINATEUR (Écrans larges > 640px) --- */
-@media (min-width: 40.01em) {
-  #main {
-    display: block !important;
-    padding-left: 0 !important;
-    max-width: 1280px;
-    margin: 0 auto;
+/* L'astuce est ici : on englobe TOUT (PC et Mobile) dans ces deux classes.
+   Ainsi, la page "Splash" (Accueil) n'est pas touchée. */
+.layout--single,
+.layout--archive {
+
+  /* --- 1. VERSION ORDINATEUR (Écrans larges > 640px) --- */
+  @media (min-width: 40.01em) {
+
+    /* A. LE CONTENEUR PRINCIPAL */
+    #main {
+      display: block !important;
+      max-width: 1280px;
+      margin: 0 auto !important; /* Centre le site sur les grands écrans */
+
+      /* On remet de l'air sur les côtés */
+      padding-left: 2em !important;
+      padding-right: 2em !important;
+      box-sizing: border-box !important;
+    }
+
+    /* B. LA SIDEBAR à Droite */
+    .sidebar {
+      float: right !important;
+      width: 20% !important;
+      margin-right: 0 !important;
+      margin-left: 5% !important; /* Espace entre texte et sidebar */
+      position: sticky !important;
+      top: 2em;
+    }
+
+    /* C. LE TEXTE à Gauche */
+    .archive, .page {
+      float: left !important;
+      width: 75% !important;
+      padding-right: 0 !important;
+    }
+
+    /* Nettoyage marges par défaut */
+    .initial-content {
+      padding-left: 0 !important;
+    }
   }
 
-  /* La Sidebar à Droite */
-  .sidebar {
-    float: right !important;
-    width: 20% !important;
-    margin-right: 0 !important;
-    margin-left: 5% !important;
-    position: sticky !important;
-    top: 2em;
-  }
+  /* --- 2. VERSION MOBILE (Écrans < 640px) --- */
+  @media (max-width: 40em) {
 
-  /* Le Texte à Gauche */
-  .archive, .page {
-    float: left !important;
-    width: 75% !important;
-    padding-right: 0 !important;
-  }
+    /* A. LE CONTENEUR PRINCIPAL */
+    #main {
+      display: flex !important;
+      flex-direction: column !important;
+      width: 100% !important;
+      padding: 0 !important;
+    }
 
-  /* Nettoyage marges du thème */
-  .initial-content {
-    padding-left: 0 !important;
-  }
-}
+    /* B. LE TEXTE (Article + Liste) -> POSITION 1 */
+    .page, article.page, .archive {
+      order: 1 !important;
+      width: 100% !important;
+      float: none !important;
+      margin-bottom: 0 !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      box-sizing: border-box !important;
+    }
 
-/* --- 2. VERSION MOBILE (Écrans < 640px) --- */
-@media (max-width: 40em) {
+    /* C. SUGGESTIONS "AIMER AUSSI" -> POSITION 2 */
+    .page__related {
+      order: 2 !important;
+      width: 100% !important;
+      margin-top: 2em !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      box-sizing: border-box !important;
+    }
 
-  /* A. LE CONTENEUR PRINCIPAL */
-  #main {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    padding: 0 !important; /* On laisse les enfants gérer leur marge */
-  }
+    /* D. LA SIDEBAR -> POSITION 3 */
+    .sidebar {
+      order: 3 !important;
+      width: 100% !important;
+      float: none !important;
+      position: static !important;
 
-  /* B. LE TEXTE (Article) -> POSITION 1 */
-  .page, article.page {
-    order: 1 !important;
-    width: 100% !important;
-    float: none !important;
-    margin-bottom: 0 !important;
+      /* Annulation de la marge gauche du PC */
+      margin: 30px 0 0 0 !important;
 
-    /* Marge interne pour ne pas coller au bord */
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    box-sizing: border-box !important;
-  }
+      padding: 0 !important;
+      box-sizing: border-box !important;
 
-  /* C. SUGGESTIONS "AIMER AUSSI" -> POSITION 2 */
-  .page__related {
-    order: 2 !important;
-    width: 100% !important;
-    margin-top: 2em !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    box-sizing: border-box !important;
-  }
+      /* GRILLE CÔTE À CÔTE */
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      column-gap: 20px !important;
+      row-gap: 5px !important;
+      grid-template-rows: auto auto auto !important;
 
-  /* D. LA SIDEBAR -> POSITION 3 */
-  .sidebar {
-    order: 3 !important;
-    width: 100% !important;
-    float: none !important;
-    margin: 30px 0 0 0 !important;
-    position: static !important;
+      /* --- STYLES VISUELS MOBILE (Imbriqués pour cibler la sidebar) --- */
+      img {
+        width: 100% !important;
+        max-width: 100px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        display: block !important;
+      }
 
-    /* Petite marge de sécurité sur les côtés */
-    padding: 0 10px !important;
-    box-sizing: border-box !important;
+      h3 {
+        font-size: 0.85em !important;
+        text-align: center !important;
+        margin: 5px 0 !important;
+        width: 100% !important;
+        overflow-wrap: break-word !important;
+      }
 
-    /* --- LA GRILLE CÔTE À CÔTE --- */
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important; /* 2 colonnes égales */
-    column-gap: 20px !important; /* Espace raisonnable entre les deux */
-    row-gap: 5px !important;
-    grid-template-rows: auto auto auto !important;
-  }
+      p {
+        font-size: 0.75em !important;
+        text-align: center !important;
+        line-height: 1.2 !important;
+        width: 100% !important;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        hyphens: auto !important;
+      }
 
-  /* --- PLACEMENT MANUEL DES ÉLÉMENTS (SYLVIE / VINCENT) --- */
+      /* --- PLACEMENT MANUEL SYLVIE & VINCENT --- */
 
-  /* Colonne 1 : Sylvie (Les 1ers éléments) */
-  .sidebar img:nth-of-type(1) { grid-column: 1 !important; grid-row: 1 !important; }
-  .sidebar h3:nth-of-type(1)  { grid-column: 1 !important; grid-row: 2 !important; }
-  .sidebar p:nth-of-type(1)   { grid-column: 1 !important; grid-row: 3 !important; }
+      /* Colonne 1 : Sylvie */
+      img:nth-of-type(1) { grid-column: 1 !important; grid-row: 1 !important; }
+      h3:nth-of-type(1)  { grid-column: 1 !important; grid-row: 2 !important; }
+      p:nth-of-type(1)   { grid-column: 1 !important; grid-row: 3 !important; }
 
-  /* Colonne 2 : Vincent (Les 2èmes éléments) */
-  .sidebar img:nth-of-type(2) { grid-column: 2 !important; grid-row: 1 !important; }
-  .sidebar h3:nth-of-type(2)  { grid-column: 2 !important; grid-row: 2 !important; }
-  .sidebar p:nth-of-type(2)   { grid-column: 2 !important; grid-row: 3 !important; }
-
-  /* --- STYLES VISUELS MOBILE --- */
-
-  /* Images centrées et limitées en taille */
-  .sidebar img {
-    width: 100% !important;
-    max-width: 100px !important; /* Petite taille pour que tout rentre */
-    height: auto !important;
-    margin: 0 auto !important;
-    display: block !important;
-  }
-
-  /* Titres */
-  .sidebar h3 {
-    font-size: 0.85em !important;
-    text-align: center !important;
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-
-    /* Sécurité anti-coupure */
-    width: 100% !important;
-    overflow-wrap: break-word !important;
-  }
-
-  /* Textes */
-  .sidebar p {
-    font-size: 0.75em !important; /* Texte petit pour tenir */
-    text-align: center !important;
-    line-height: 1.2 !important;
-
-    /* C'est ICI qu'on empêche le texte d'être coupé */
-    width: 100% !important;
-    overflow-wrap: break-word !important;
-    word-wrap: break-word !important;
-    hyphens: auto !important;
+      /* Colonne 2 : Vincent */
+      img:nth-of-type(2) { grid-column: 2 !important; grid-row: 1 !important; }
+      h3:nth-of-type(2)  { grid-column: 2 !important; grid-row: 2 !important; }
+      p:nth-of-type(2)   { grid-column: 2 !important; grid-row: 3 !important; }
+    }
   }
 }
