@@ -6,6 +6,10 @@ main:
     url: /posts/
   - title: "Trombi"
     url: /trombi/
+  - title: "Nous rejoindre"
+    url: /adhesion/
+  - title: "<i class='fas fa-fw fa-calendar-days'></i>"
+    url: /agenda/
   - title: "<i class='fas fa-fw fa-envelope'></i>"
     url: "mailto:ascbalan@hotmail.fr"
   - title: "<i class='fab fa-fw fa-instagram'></i>"

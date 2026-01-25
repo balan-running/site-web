@@ -3,8 +3,6 @@ title: "Trombinoscope"
 permalink: /trombi/
 ---
 
-<div style="padding-top: 20px;"></div>
-
 # Les visages de l'ASC Balan
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -18,7 +16,7 @@ $(document).ready(function() {
 
     // On charge uniquement le div #photos
     $("#affichage-trombi").load(baseUrl + "trombinoscope.html #photos", function(response, status, xhr) {
-        
+
         if (status === "success") {
             // Une fois le contenu chargé, on cherche toutes les images à l'intérieur
             $(this).find('img').each(function() {
@@ -26,7 +24,7 @@ $(document).ready(function() {
 
                 // Si l'image a un chemin relatif (ne commence pas par http)
                 if (currentSrc && !currentSrc.startsWith('http')) {
-                    
+
                     // On nettoie le chemin : si le MD a mis un "/" au début, on le retire
                     if (currentSrc.startsWith('/')) {
                         currentSrc = currentSrc.substring(1);

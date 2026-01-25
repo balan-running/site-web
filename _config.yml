@@ -63,12 +63,12 @@ author:
 footer:
   since: 1977
   links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/ascbalan01/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:ascbalan@hotmail.fr"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/ascbalan01/"
 
 # --- Configuration des mises en page (Defaults) ---
 defaults:

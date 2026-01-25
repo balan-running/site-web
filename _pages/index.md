@@ -16,7 +16,7 @@ Club de course à pied route (et trail) à Balan (01), affilié FFA.
 Fondé en **1977**, l'**ASC Balan Athlétisme** est avant tout une aventure humaine axée sur le **relationnel** et la **convivialité**. Que vous soyez compétiteur ou coureur loisir, notre structure vous accueille pour partager notre passion commune.
 
 - **Types de courses :** Nous pratiquons sur tous les terrains : routes, chemins et trails, sur toutes les distances (5K à 24H).
-- **Esprit :** Une ambiance chaleureuse où le plaisir de courir ensemble prime sur le chronomètre.
+- **Esprit :** Le partage et la convivialité comme moteurs, quels que soient vos objectifs de course.
 - **Public :** Ouvert à tous, hommes et femmes, à partir de 16 ans. Que ce soit pour la performance ou simplement pour garder une activité sportive et conviviale.
 
 ---
@@ -44,4 +44,6 @@ Pour toute question ou pour nous rejoindre, n'hésitez pas à contacter notre pr
 - **Téléphone :** 06 07 02 39 37
 - **Email :** [ascbalan@hotmail.fr](mailto:ascbalan@hotmail.fr)
 
-[Suivez-nous sur Instagram](https://www.instagram.com/ascbalan01/){: .btn .btn--primary} [Envoyer un Mail](mailto:ascbalan@hotmail.fr){: .btn .btn--info}
+[Envoyer un email](mailto:ascbalan@hotmail.fr){: .btn .btn--info}
+[Nous rejoindre](/adhesion/){: .btn .btn--success}
+[Nous suivre sur Instagram](https://www.instagram.com/ascbalan01/){: .btn .btn--primary} 

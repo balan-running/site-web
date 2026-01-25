@@ -43,3 +43,17 @@
     padding-bottom: 0 !important;
   }
 }
+
+
+
+/* Cible uniquement les pages utilisant le layout splash */
+.layout--splash .page__content {
+  padding-top: 20px; /* Ajustez la valeur selon l'espace souhaité */
+}
+
+/* Optionnel : Ajuster aussi sur mobile si la navbar change de taille */
+@media (max-width: 600px) {
+  .layout--splash .page__content {
+    padding-top: 15px;
+  }
+}
