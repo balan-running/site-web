@@ -57,3 +57,23 @@
     padding-top: 15px;
   }
 }
+
+
+
+.sidebar {
+  float: right !important;
+  margin-right: 0 !important;
+  margin-left: 5% !important;
+}
+
+.archive, .page {
+  float: left !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important; /* Ajoute cette ligne pour supprimer l'espace à gauche */
+  width: 75% !important;      /* Il est conseillé de fixer la largeur pour éviter les chevauchements */
+}
+
+/* Force la suppression de l'espace sur le conteneur parent */
+.initial-content {
+  padding-left: 0 !important;
+}
