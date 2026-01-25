@@ -60,28 +60,6 @@
 
 
 
-/* 1. On gère la sidebar */
-.sidebar {
-  float: right !important;
-  width: 20% !important; /* On réduit sa largeur */
-  margin-right: 0 !important;
-  margin-left: 5% !important;
-}
-
-/* 2. On gère le contenu */
-.archive, .page {
-  float: left !important;
-  width: 75% !important; /* On laisse de la place pour la marge */
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* 3. On nettoie l'espace forcé par le thème */
-.initial-content {
-  padding-left: 0 !important;
-}
-
-
 
 /* ==========================================================================
    CONFIGURATION FINALE : TOUT LE SITE SAUF LA PAGE D'ACCUEIL (SPLASH)
