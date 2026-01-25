@@ -7,22 +7,32 @@ permalink: /asso/
 
 ## Le Bureau
 
-Les Membres du Bureau ont été élus lors de l’Assemblée Générale élective qui s’est tenue le 25 juin 2021.
+Les Membres du Bureau ont été élus lors de l’Assemblée Générale élective qui s’est tenue le 2 février 2024.
 Tous les entraîneurs et juges arbitres officiels sont membres de droit du bureau.
 Monsieur le Maire de Balan est membre d'honneur.
 
+L'organigramme de l'association a été mis à jour. Voici la composition actuelle de l'équipe dirigeante :
+
 ### Constitution du Bureau :
 
-- Président : **Salmon Lionel**
-- Vice-président : **Berrard Jean-Jacques**
-- Secrétaire : **Salmon Céline**
-- Secrétaire Adjoint : **Courtois Delphine**
-- Trésorier : **Valentin Bruno**
-- Trésorier Adjoint : **Michon Jacques**
+- **Président :** Dominique Darles
+- **Président d'honneur :** Jean-Jacques Berrard
+- **Comptabilité / Trésorerie :** Cécile Gréa, Jean-Louis Perdrix
+- **Secrétariat :** Samuel Vincent, Delphine Courtois, Frédéric Berlioz
 
-- **Entraineurs :** Berrard Jean-Jacques, Salmon Lionel, Berlioz Frédéric, Rognard Laurent.
-- **Juge arbitre :** néant.
-- **Commissions :** Plantier Agnès, Maire Christelle, Vincent Samuel, Rousseau Patrick, Faure Stéphane, Berger Stéphane.
+### Autres commissions :
+
+- **Licences :** Céline Salmon, Samuel Vincent, Line Philippon.
+- **Communication :** Mélanie Demurger, Martin Gandon, Lionel Salmon.
+- **Entraînements :** Jean-Jacques Berrard, Frédéric Berlioz, Laurent Rognard, Lionel Salmon (+ Florian Privé et Vincent Richaud, en devenir).
+- **Organisation des Manifestations :** Stéphane Faure, Line Philippon, Delphine Courtois, Martin Gandon, Mélanie Demurger.
+- **Comité Sponsors :** Jean-Louis Perdrix, Mélanie Demurger, Dominique Darles, Martin Gandon, Delphine Courtois, Line Philippon, Stéphane Faure, Cécile Gréa.
+- **Organisation du Sentier des Lônes :** Samuel Vincent, Dominique Darles, Laurent Rognard, Jean-Jacques Berrard, Frédéric Berlioz, Delphine Courtois.
+
+### Autres
+
+- **Gestion et organisation des buffets :** Laurent Rognard, Véronique Trouillet.
+- **Volontaires pour l'aide aux différentes commissions :** Patrick Bruno, Didier Salmon, Florian Privé, Vincent Richaud.
 
 ---
 
