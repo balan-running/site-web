@@ -29,7 +29,7 @@
 }
 
 /* --- AJUSTEMENTS POUR MOBILE (Écrans de moins de 768px) --- */
-@media (max-width: 768px) {
+@media (max-width: 40em) {
   .page__hero--overlay {
     /* Comme l'image est très large, on réduit drastiquement la hauteur sur mobile */
     /* Cela permet de voir une plus grande partie de la largeur de la photo */
@@ -52,7 +52,7 @@
 }
 
 /* Optionnel : Ajuster aussi sur mobile si la navbar change de taille */
-@media (max-width: 600px) {
+@media (max-width: 40em) {
   .layout--splash .page__content {
     padding-top: 15px;
   }
@@ -60,20 +60,54 @@
 
 
 
+/* 1. On gère la sidebar */
 .sidebar {
   float: right !important;
+  width: 20% !important; /* On réduit sa largeur */
   margin-right: 0 !important;
   margin-left: 5% !important;
 }
 
+/* 2. On gère le contenu */
 .archive, .page {
   float: left !important;
+  width: 75% !important; /* On laisse de la place pour la marge */
+  padding-left: 0 !important;
   padding-right: 0 !important;
-  padding-left: 0 !important; /* Ajoute cette ligne pour supprimer l'espace à gauche */
-  width: 75% !important;      /* Il est conseillé de fixer la largeur pour éviter les chevauchements */
 }
 
-/* Force la suppression de l'espace sur le conteneur parent */
+/* 3. On nettoie l'espace forcé par le thème */
 .initial-content {
   padding-left: 0 !important;
+}
+
+/* 4. LA CORRECTION : Si l'écran est trop petit (mobile) */
+@media (max-width: 40em) {
+  .sidebar, .archive, .page {
+    float: none !important; /* On arrête de les mettre côte à côte */
+    width: 100% !important; /* Ils reprennent toute la largeur */
+    margin: 0 !important;
+  }
+
+  /* On force le contenu à apparaître AVANT la sidebar */
+  .initial-content {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .archive, .page {
+    order: 1 !important; /* Le texte en premier */
+  }
+
+  .sidebar {
+    order: 2 !important; /* La sidebar (Sylvie) en dessous */
+    margin-top: 2em !important;
+  }
+
+  /* On réduit la taille de l'image de la bielleuse sur mobile */
+  .sidebar img {
+    max-width: 150px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
 }
