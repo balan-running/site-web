@@ -8,6 +8,10 @@ main:
     url: /trombi/
   - title: "Nous rejoindre"
     url: /adhesion/
+  - title: "Notre association"
+    url: /asso/
+  - title: "Guide du coureur"
+    url: "https://privefl.github.io/guideascbalan/"
   - title: "<i class='fas fa-fw fa-calendar-days'></i>"
     url: /agenda/
   - title: "<i class='fas fa-fw fa-envelope'></i>"

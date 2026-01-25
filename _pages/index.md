@@ -29,6 +29,8 @@ Le point de ralliement principal est le [**stade de Balan**](https://maps.app.go
 | **Mardi** | 19h00 - 20h30 | Stade de Balan | VMA courte / Endurance |
 | **Jeudi** | 19h00 - 20h30 | Stade de Balan | Allure spécifique / Endurance |
 
+[Consulter le calendrier des entraînements](/agenda/){: .btn .btn--info}
+
 ---
 
 ## 📢 Vie du Club & Manifestations
