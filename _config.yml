@@ -45,20 +45,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# --- Auteur / Barre latérale ---
-author:
-  name   : "ASC Balan"
-  avatar : "/assets/images/logo-balan2.png" # <-- Ton nouveau logo ici
-  bio    : "Club de course à pied route (et trail) à Balan"
-  location: "Balan, Ain (01)"
-  links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/ascbalan01/"
-    - label: "Contact Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:ascbalan@hotmail.fr"
-
 # --- Pied de page ---
 footer:
   since: 1977
@@ -74,16 +60,21 @@ footer:
 defaults:
   # 1. Pour les articles de blog (dans _posts)
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
-      layout: splash
+      layout: single
       author_profile: false
       read_time: true
       show_date: true
       comments: false
       share: true
       related: true
+      sidebar:
+        # A copier dans _pages/actus.md aussi !
+        - title: "La Bielleuse 2023-2024"
+          image: "/assets/images/bielle-2025.jpg"
+          text: "Félicitations à Sylvie, élue lors de l'AG de février 2025, pour l'ensemble de son œuvre !"
 
   # 2. Pour les pages fixes rangées dans le dossier "_pages" (Ta structure)
   - scope:
