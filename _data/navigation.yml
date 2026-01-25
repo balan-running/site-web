@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Actus"
     url: /posts/
+  - title: "Trombi"
+    url: /trombi/
   - title: "<i class='fas fa-fw fa-envelope'></i>"
     url: "mailto:ascbalan@hotmail.fr"
   - title: "<i class='fab fa-fw fa-instagram'></i>"

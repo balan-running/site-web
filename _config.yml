@@ -61,7 +61,7 @@ author:
 
 # --- Pied de page ---
 footer:
-  since: "1977"
+  since: 1977
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
