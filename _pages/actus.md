@@ -6,5 +6,8 @@ sidebar:
   - title: "La Bielleuse 2023-2024"
     image: "/assets/images/bielle-2025.jpg"
     text: "Félicitations à Sylvie, élue lors de l'AG de février 2025, pour l'ensemble de son œuvre !"
+  - title: "Le Bielleur 2022-2023"
+    image: "/assets/images/bielle-2024.jpg"
+    text: "Félicitations à Vincent, élu lors de l'AG de début 2024, pour l'ensemble de son œuvre !"
 ---
 
