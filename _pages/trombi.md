@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Configuration
     const owner = "privefl";
     const repo = "guideascbalan";
-    const path = "docs/trombi";
+    const path = "trombi";
 
     // URL de l'API GitHub pour lister le contenu du dossier
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
