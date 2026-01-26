@@ -13,7 +13,7 @@ Monsieur le Maire de Balan est membre d'honneur.
 
 L'organigramme de l'association a été mis à jour. Voici la composition actuelle de l'équipe dirigeante :
 
-![](/assets/images/bureau-2024.jpg){: .align-center width="100%" }
+![]({{ site.baseurl }}/assets/images/bureau-2024.jpg){: .align-center width="100%" }
 
 
 ### Constitution du Bureau :
