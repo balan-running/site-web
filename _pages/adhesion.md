@@ -21,4 +21,6 @@ Si vous êtes convaincus, demandez le formulaire d'adhésion par email ; il y a 
   - une adhésion avec **licence FFA compétition : 140 €**
   - *permet en plus de participer aux championnats organisés par la FFA et d’être classé.*
 
+<br>
+
 Pour les nouveaux licenciés, le nouveau maillot du club *2025* (manches courtes ou débardeur) est offert.
