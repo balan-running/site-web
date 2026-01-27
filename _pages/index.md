@@ -47,5 +47,5 @@ Pour toute question ou pour nous rejoindre, n'hésitez pas à contacter notre pr
 - **Email :** [ascbalan@hotmail.fr](mailto:ascbalan@hotmail.fr)
 
 [Envoyer un email](mailto:ascbalan@hotmail.fr){: .btn .btn--info}
-[Nous rejoindre](/adhesion/){: .btn .btn--success}
+[Nous rejoindre]({{ site.baseurl }}/adhesion/){: .btn .btn--success}
 [Nous suivre sur Instagram](https://www.instagram.com/ascbalan01/){: .btn .btn--primary} 
