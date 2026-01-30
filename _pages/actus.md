@@ -1,6 +1,6 @@
 ---
 title: "Actualités du club"
-permalink: /posts/
+permalink: /actus/
 layout: posts
 sidebar:
   - title: "La Bielleuse 2023-2024"
