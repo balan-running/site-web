@@ -36,6 +36,7 @@ exclude:
   - "*.Rproj"
   - .gitignore
   - .sass-cache
+  - HOW_TO_JEKYLL.md
 
 # --- Plugins ---
 plugins:
