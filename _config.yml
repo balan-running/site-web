@@ -7,8 +7,10 @@ description: >-
 minimal_mistakes_skin: contrast
 search: true
 logo: "/assets/images/logo-balan2.png"
-url: "https://balan-running.github.io"
-baseurl: "/site-web"
+#url: "https://balan-running.github.io"
+#baseurl: "/site-web"
+url: "https://balan-running.fr"
+baseurl: ""
 
 # --- Paramètres de construction ---
 markdown: kramdown
