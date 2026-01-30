@@ -104,7 +104,7 @@ sidebar:
 </style>
 
 <div class="followit--follow-form-container">
-  <form action="https://api.follow.it/subscription-form/ZFl3YllFaUlFcHlHbGhxd1NUVjY3VlRZZWJvZWlGUitiK04wUTRubzU0aWcwbHFoZVg5Rmk5LzJSUVA5WXhkWkFmaWpqK0R2ZHlLdmVkRzVhSyt1eEdDMnJ2S1ZHNFJjUFBwa00xSmVxK29JclEwRGY0eHdrMTNENnBvMDhoMFd8eHRCNHFMa1Q5RWg1VlV3VldaTXkzeFpvTTRzdFBEVkJiS0pjTWZObnV6MD0=/8" method="post">
+  <form action="https://api.follow.it/subscription-form/U0hoaUJ1d2VXRmh2WEtCbEo1dHJnbStwUnI0ek9rUW9EaGVtQkhONVFvV2dBNEl1aERuUnlGN09Lb2JXYTJJYVVFTEs4d1BJczIwMVlZQmxRdTlUNGdXZnNRZ3o3NXVNS3R3dEt6b2w4Z0ZiemdtTzZHcjBkaTY4Tm1sam92WlV8Y2tnRUZnWXdYSkdFUmdrUm82T1IxNkYyNkY4Q1BXTFk2c2JnTmxYb0trYz0=/8" method="post">
     <div class="form-preview">
       <div class="preview-heading">
         <h5>Recevez les nouveaux articles par e-mail&nbsp;:</h5>
