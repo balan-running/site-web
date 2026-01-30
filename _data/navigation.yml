@@ -3,7 +3,7 @@ main:
   - title: "Infos"
     url: /
   - title: "Actus"
-    url: /posts/
+    url: /actus/
   - title: "Nous rejoindre"
     url: /adhesion/
   - title: "Trombi"
