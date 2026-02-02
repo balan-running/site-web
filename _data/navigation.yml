@@ -4,13 +4,15 @@ main:
     url: /
   - title: "Actus"
     url: /actus/
-  - title: "Nous rejoindre"
+  - title: "Adhésion"
     url: /adhesion/
   - title: "Trombi"
     url: /trombi/
-  - title: "Notre association"
+  - title: "Asso"
     url: /asso/
-  - title: "Guide du coureur"
+  - title: "Records"
+    url: /records/
+  - title: "Guide"
     url: "https://privefl.github.io/guideascbalan/"
   - title: "<i class='fas fa-fw fa-calendar-days'></i>"
     url: /agenda/
