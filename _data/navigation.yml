@@ -12,6 +12,8 @@ main:
     url: /asso/
   - title: "Records"
     url: /records/
+  - title: "Village"
+    url: /village/
   - title: "Guide"
     url: "https://privefl.github.io/guideascbalan/"
   - title: "<i class='fas fa-fw fa-calendar-days'></i>"
