@@ -9,7 +9,7 @@ header:
 
 # Bienvenue sur le nouveau site de l'ASC Balan Athlétisme
 
-Club de course à pied route (et trail) à Balan (01), affilié FFA.
+Club de course à pied route (et trail) à Balan (01), affilié FFA (001002).
 
 ## Présentation du Club
 
