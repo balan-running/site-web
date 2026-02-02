@@ -20,7 +20,7 @@ L'organigramme de l'association a été mis à jour. Voici la composition actuel
 
 - **Président :** Dominique Darles
 - **Président d'honneur :** Jean-Jacques Berrard
-- **Comptabilité / Trésorerie :** Cécile Gréa, Jean-Louis Perdrix
+- **Trésorerie :** Cécile Gréa, Jean-Louis Perdrix
 - **Secrétariat :** Samuel Vincent, Delphine Courtois, Frédéric Berlioz
 
 ### Autres commissions :
