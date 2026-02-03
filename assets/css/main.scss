@@ -207,3 +207,27 @@ body:not(.layout--splash) {
     }
   }
 }
+
+.responsive-img {
+  /* 1. Comportement align-left */
+  float: left;
+  margin-right: 15px;      /* Espace entre l'image et le texte à droite */
+  margin-bottom: 5px;     /* Espace en dessous */
+
+  /* 2. Vos dimensions personnalisées */
+  width: 35%;              /* Largeur par défaut */
+  min-width: 300px;        /* Largeur minimale (force brute) */
+
+  /* 3. Votre ajustement vertical précis */
+  margin-top: 15px;        /* Remonte l'image pour s'aligner au texte */
+}
+
+@media screen and (max-width: 600px) {
+  .responsive-img {
+    width: 100% !important;      /* Prend toute la largeur */
+    float: none !important;      /* Annule l'alignement gauche */
+    display: block !important;   /* Force le bloc */
+    margin: 0 auto 15px auto !important; /* Centre et met une marge en bas */
+    min-width: 0 !important;     /* Annule la limite minimum */
+  }
+}

@@ -5,7 +5,7 @@ permalink: /village/
 
 # Balan : Panorama et Historique
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/La_mairie_de_Balan_%28Ain%29_en_septembre_2021_%283%29.jpg/960px-La_mairie_de_Balan_%28Ain%29_en_septembre_2021_%283%29.jpg){: .align-left width="16%" style="min-width: 150px;" }
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/La_mairie_de_Balan_%28Ain%29_en_septembre_2021_%283%29.jpg/960px-La_mairie_de_Balan_%28Ain%29_en_septembre_2021_%283%29.jpg){: .responsive-img style="width: 35%;" }
 
 Petit village de 3000 habitants, **Balan** (ex *Baladunum* au XIIe siècle : *Bal* = escarpement – *Dunum* = forteresse) se situe au Sud du département de l'AIN entre la Côtière de la Dombes et les rives du Rhône. Bien qu'en dehors des grands axes routiers, Balan mérite le détour.
 
@@ -42,6 +42,6 @@ Par sa situation particulière, Balan ne peut que progresser tant sur le plan r�
 
 * [Site Mairie de Balan](https://www.ville-balan.fr/)
 
-* [Page Wikipédia](https://fr.wikipedia.org/wiki/Balan_%28Ain%29)
+* [Page Wikipédia de Balan](https://fr.wikipedia.org/wiki/Balan_%28Ain%29)
 
 * [Site Office du Tourisme de la 3CM](https://lecostellan.3cm.fr/)
