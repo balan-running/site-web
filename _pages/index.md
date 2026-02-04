@@ -4,7 +4,7 @@ title: "ASC Balan Athlétisme"
 excerpt: "Club de course à pied route et trail à Balan (01), affilié FFA."
 header:
   overlay_image: /assets/images/header-balan.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0
 ---
 
 # Bienvenue sur le nouveau site de l'ASC Balan Athlétisme
