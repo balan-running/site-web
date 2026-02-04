@@ -24,6 +24,7 @@ Si vous êtes convaincus, demandez le formulaire d'adhésion par email ; il y a 
 <br>
 
 Pour les nouveaux licenciés, le nouveau maillot du club *2025* (manches courtes ou débardeur) est offert.
+Vous pouvez également en acheter un supplémentaire pour 35€.
 
 ![]({{ site.baseurl }}/assets/images/maillots.jpg){: .responsive-img style="width: 48%;" }
 ![]({{ site.baseurl }}/assets/images/débardeurs.jpg){: .responsive-img style="width: 42%;" }
