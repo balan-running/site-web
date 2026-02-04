@@ -18,24 +18,24 @@ L'organigramme de l'association a été mis à jour. Voici la composition actuel
 
 ### Constitution du Bureau :
 
-- **Président :** Dominique Darles
+- **Président :** *Dominique Darles*
 - **Président d'honneur :** Jean-Jacques Berrard
-- **Trésorerie :** Cécile Gréa, Jean-Louis Perdrix
-- **Secrétariat :** Samuel Vincent, Delphine Courtois, Frédéric Berlioz
+- **Trésorerie :** *Cécile Gréa*, Jean-Louis Perdrix
+- **Secrétariat :** *Samuel Vincent*, Delphine Courtois, Frédéric Berlioz
 
 ### Autres commissions :
 
-- **Licences :** Céline Salmon, Samuel Vincent, Line Philippon.
-- **Communication :** Mélanie Demurger, Martin Gandon, Lionel Salmon.
-- **Entraînements :** Jean-Jacques Berrard, Frédéric Berlioz, Laurent Rognard, Lionel Salmon (+ Florian Privé et Vincent Richaud, en devenir).
-- **Organisation des Manifestations :** Stéphane Faure, Line Philippon, Delphine Courtois, Martin Gandon, Mélanie Demurger.
-- **Comité Sponsors :** Jean-Louis Perdrix, Mélanie Demurger, Dominique Darles, Martin Gandon, Delphine Courtois, Line Philippon, Stéphane Faure, Cécile Gréa.
-- **Organisation du Sentier des Lônes :** Samuel Vincent, Dominique Darles, Laurent Rognard, Jean-Jacques Berrard, Frédéric Berlioz, Delphine Courtois.
+- **Licences :** *Céline Salmon*, Line Philippon.
+- **Communication :** *Mélanie Demurger*, Martin Gandon, Lionel Salmon, Florian Privé, Vincent Richaud.
+- **Entraînements :** *Jean-Jacques Berrard*, Frédéric Berlioz, Laurent Rognard, Lionel Salmon, Florian Privé, Vincent Richaud.
+- **Organisation des Manifestations :** *Stéphane Faure*, Line Philippon, Delphine Courtois, Martin Gandon, Mélanie Demurger, Didier Salmon.
+- **Comité Sponsors :** *Jean-Louis Perdrix*, Cécile Gréa, Mélanie Demurger, Dominique Darles, Martin Gandon, Delphine Courtois, Line Philippon, Stéphane Faure.
+- **Organisation du Sentier des Lônes :** *Samuel Vincent* et autres membres du Bureau.
 
-### Autres
+### Autres :
 
-- **Gestion et organisation des buffets :** Laurent Rognard, Véronique Trouillet.
-- **Volontaires pour l'aide aux différentes commissions :** Patrick Bruno, Didier Salmon, Florian Privé, Vincent Richaud.
+- **Gestion et organisation des buffets :** Laurent Rognard, Delphine Courtois.
+- **Volontaires pour l'aide aux différentes commissions :** Patrick Bruno.
 
 ---
 
