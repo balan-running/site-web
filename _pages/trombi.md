@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const repo = "guideascbalan";
     const path = "trombi";
     
-    // Modification technique : URL rapide
+    // URL rapide (CDN)
     const baseUrl = "https://guide.balan-running.fr/trombi/";
 
-    // URL de l'API GitHub pour lister le contenu du dossier
+    // URL de l'API GitHub
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
 
     fetch(apiUrl)
@@ -34,12 +34,19 @@ document.addEventListener("DOMContentLoaded", function() {
             // 1. On filtre pour ne garder que les images PNG
             const images = data.filter(file => file.name.match(/\.png$/i));
 
+            // --- CORRECTION DU TRI ICI ---
+            // On trie la liste alphabétiquement en ignorant la casse et les accents
+            images.sort((a, b) => {
+                return a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' });
+            });
+            // -----------------------------
+
             if (images.length === 0) {
                 loader.innerHTML = "Aucune photo trouvée.";
                 return;
             }
 
-            // 2. On génère le HTML pour chaque image
+            // 2. On génère le HTML
             images.forEach(file => {
                 const filename = file.name.replace(/\.png$/i, '');
                 const parts = filename.split('_');
@@ -54,11 +61,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     prenom = capitalize(filename);
                 }
 
-                // CORRECTION ICI : On utilise baseUrl + nom du fichier au lieu de download_url
+                // URL de l'image
                 const imageUrl = baseUrl + file.name;
 
                 const card = document.createElement('div');
-                // Votre style original conservé
                 card.style.cssText = `
                     flex: 1 1 88px;
                     height: 190px;
