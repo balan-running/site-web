@@ -4,20 +4,22 @@ main:
     url: /
   - title: "Actus"
     url: /actus/
-  - title: "Adhésion"
-    url: /adhesion/
-  - title: "Trombi"
-    url: /trombi/
-  - title: "Asso"
-    url: /asso/
-  - title: "Records"
-    url: /records/
-  - title: "Village"
-    url: /village/
-  - title: "Guide"
-    url: "https://privefl.github.io/guideascbalan/"
   - title: "<i class='fas fa-fw fa-calendar-days'></i>"
     url: /agenda/
+  - title: "Trombi"
+    url: /trombi/
+  - title: "Adhésion"
+    url: /adhesion/
+  - title: "Guide"
+    url: "https://privefl.github.io/guideascbalan/"
+  # - title: "Course SdL"
+  #   url: /course/
+  - title: "Records"
+    url: /records/
+  - title: "Asso"
+    url: /asso/
+  - title: "Village"
+    url: /village/
   - title: "<i class='fas fa-fw fa-envelope'></i>"
     url: "mailto:ascbalan@hotmail.fr"
   - title: "<i class='fab fa-fw fa-instagram'></i>"
