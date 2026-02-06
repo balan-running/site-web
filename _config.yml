@@ -39,7 +39,7 @@ exclude:
   - .gitignore
   - .sass-cache
   - HOW_TO_JEKYLL.md
-  - JEKYLL_SERVE.sh
+  - jekyll-serve.R
 
 # --- Plugins ---
 plugins:
