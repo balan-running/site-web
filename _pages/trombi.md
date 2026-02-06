@@ -10,17 +10,21 @@ permalink: /trombi/
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+
     // Configuration
     const owner = "privefl";
     const repo = "guideascbalan";
     const path = "trombi";
+    
+    // Modification technique : URL rapide
+    const baseUrl = "https://guide.balan-running.fr/trombi/";
 
     // URL de l'API GitHub pour lister le contenu du dossier
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
 
     fetch(apiUrl)
         .then(response => {
-            if (!response.ok) throw new Error("Erreur API GitHub (Limite atteinte ou dossier introuvable)");
+            if (!response.ok) throw new Error("Erreur API GitHub");
             return response.json();
         })
         .then(data => {
@@ -30,9 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
             // 1. On filtre pour ne garder que les images PNG
             const images = data.filter(file => file.name.match(/\.png$/i));
 
-            // Note : L'API ne donne pas la date de modification facilement.
-            // Les images seront donc triées par ordre alphabétique par défaut.
-
             if (images.length === 0) {
                 loader.innerHTML = "Aucune photo trouvée.";
                 return;
@@ -40,8 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // 2. On génère le HTML pour chaque image
             images.forEach(file => {
-                // Analyse du nom de fichier : Prenom_Nom.png
-                // On retire l'extension et on sépare au niveau du tiret bas
                 const filename = file.name.replace(/\.png$/i, '');
                 const parts = filename.split('_');
 
@@ -52,24 +51,26 @@ document.addEventListener("DOMContentLoaded", function() {
                     prenom = capitalize(parts[0]);
                     nom = capitalize(parts[1]);
                 } else {
-                    // Si le fichier est mal nommé, on met tout dans le prénom
                     prenom = capitalize(filename);
                 }
 
-                // Création de la carte (Basé sur votre style Rmd)
+                // CORRECTION ICI : On utilise baseUrl + nom du fichier au lieu de download_url
+                const imageUrl = baseUrl + file.name;
+
                 const card = document.createElement('div');
+                // Votre style original conservé
                 card.style.cssText = `
-                    flex: 1 1 85px;
+                    flex: 1 1 88px;
                     height: 190px;
-                    margin: 5px;
+                    margin: 6px;
                     text-align: center;
                     vertical-align: top;
                 `;
 
                 card.innerHTML = `
-                    <img src="${file.download_url}" alt="${prenom} ${nom}" style="width:100%; max-width:95px; border-radius:8px; cursor: pointer;" loading="lazy">
+                    <img src="${imageUrl}" alt="${prenom} ${nom}" style="width:100%; max-width:95px; border-radius:8px; cursor: pointer;" loading="lazy">
                     <br>
-                    <div style="height:70px; overflow:hidden; line-height:1.3em; font-size: 0.9em; margin-top:5px;">
+                    <div style="height:70px; overflow:hidden; line-height:1.3em; font-size: 0.9em; margin-top:3px;">
                         <strong>${prenom}</strong><br>${nom}
                     </div>
                 `;
@@ -80,11 +81,10 @@ document.addEventListener("DOMContentLoaded", function() {
             loader.style.display = 'none';
         })
         .catch(error => {
-            document.getElementById('loader').innerHTML = "⚠️ Impossible de charger les photos (limite API ou erreur réseau).";
+            document.getElementById('loader').innerHTML = "⚠️ Impossible de charger les photos.";
             console.error(error);
         });
 
-    // Petite fonction utilitaire pour mettre la 1ère lettre en majuscule (Title Case)
     function capitalize(str) {
         return str.toLowerCase().replace(/(?:^|\s|-)\S/g, function(a) { return a.toUpperCase(); });
     }
