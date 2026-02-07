@@ -61,6 +61,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/ascbalan01/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/p/ASC-BALAN-100057064285597/"
 
 # --- Configuration des mises en page (Defaults) ---
 defaults:

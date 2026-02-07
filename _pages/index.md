@@ -49,3 +49,4 @@ Pour toute question ou pour nous rejoindre, n'hésitez pas à contacter notre pr
 [Envoyer un email](mailto:ascbalan@hotmail.fr){: .btn .btn--info}
 [Nous rejoindre]({{ site.baseurl }}/adhesion/){: .btn .btn--success}
 [Nous suivre sur Instagram](https://www.instagram.com/ascbalan01/){: .btn .btn--primary} 
+[Nous suivre sur Facebook](https://www.facebook.com/p/ASC-BALAN-100057064285597/){: .btn .btn--primary} 
