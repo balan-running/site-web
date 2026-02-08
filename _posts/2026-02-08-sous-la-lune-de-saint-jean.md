@@ -1,12 +1,14 @@
 ---
 title: "Sous la Lune de Saint Jean"
 date: 2026-02-08
-author: "Dominique D."
+author: "Dominique D. & Agnès M."
 categories:
   - course
 tags:
   - nature
 ---
+
+### Le récit de Dominique
 
 ![]({{ site.baseurl }}/assets/images/posts/2026-02-08_1.jpeg){: .responsive-img2 .pull-left style="width: 40%;" }
 
@@ -17,6 +19,29 @@ Comme chaque année, la bonne humeur et l’ambiance sont de mise, et la proximi
 La voix du speaker et les premières lumières sont les signes que l’arrivée est proche. Après quelques dernières courbes, nous retrouvons le goudron pour un ultime effort avant de franchir la ligne. La fraîcheur étant tombée, nous avons grandement apprécié la soupe à l’oignon offerte par l’organisation.
 
 ![]({{ site.baseurl }}/assets/images/posts/2026-02-08_2.jpeg){: .responsive-img2 .pull-right style="width: 55%;" }
+
+---
+
+### Le récit d'Agnès
+
+« Sous la lune », voilà un titre bien inspirant. 
+
+En manque total de motivation, je me suis dit qu'en proposant ça à ma fille qui vient de se mettre à la course, un beau moment nous attendait.
+Hélas, entre l'inscription et la date, une vilaine bronchite est venue entamer mon état de forme (déjà moyen). 
+Le jour J arrive et jusqu’au dernier moment, j'hésite. 
+Pas couru depuis 3 semaines, une toux non-stop, une capacité respiratoire bien diminuée.
+
+L'envie de partager ce moment avec ma fille sera la plus forte. 
+Tant pis, je marcherai si besoin. 
+Bon, ce n’était pas l’idée du siècle mais : je l'ai fait ! 
+Quel magnifique parcours. 
+Ces ambiances nocturnes sont incomparables. 
+La soupe à l'oignon réchauffe bien à l'arrivée. 
+Quel plaisir d'avoir partagé ça avec ma fille, une première pour elle : trail et nuit. 
+
+Comme quoi, il est urgent de ne pas toujours trop s'écouter.
+
+---
 
 ### Les résultats de l'ASC BALAN :
 
