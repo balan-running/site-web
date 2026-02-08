@@ -225,14 +225,13 @@ body:not(.layout--splash) {
 }
 
 .responsive-img2 {
-  width: 35%;
-  min-width: 300px;
+  min-width: 200px;
   margin-bottom: 5px;
 
   &.pull-left {
     float: left;
     margin-right: 15px;
-    margin-top: 1.5em;
+    margin-top: 1em;
   }
 
   &.pull-right {
