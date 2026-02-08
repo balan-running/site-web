@@ -1,7 +1,7 @@
 ---
 title: "Sous la Lune de Saint Jean"
 date: 2026-02-08
-author: "Dominique"
+author: "Dominique D."
 categories:
   - course
 tags:
