@@ -40,8 +40,6 @@ Par sa situation particulière, Balan ne peut que progresser tant sur le plan r�
 
 ---
 
-* [Site Mairie de Balan](https://www.ville-balan.fr/)
-
-* [Page Wikipédia de Balan](https://fr.wikipedia.org/wiki/Balan_%28Ain%29)
-
-* [Site Office du Tourisme de la 3CM](https://lecostellan.3cm.fr/)
+- [Site Mairie de Balan](https://www.ville-balan.fr/)
+- [Page Wikipédia de Balan](https://fr.wikipedia.org/wiki/Balan_%28Ain%29)
+- [Site Office du Tourisme de la 3CM](https://lecostellan.3cm.fr/)

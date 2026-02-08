@@ -1,3 +1,3 @@
-rstudioapi::terminalExecute("bundle exec jekyll serve --livereload")
-Sys.sleep(30)
+# bundle exec jekyll serve --livereload
+
 browseURL("http://127.0.0.1:4000/")
