@@ -17,7 +17,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
 # --- URLs et Permaliens ---
-permalink: /:categories/:title/
+permalink: /:categories/:year/:title/
 paginate: 5
 paginate_path: /page:num/
 date_format: "%d/%m/%Y"  # "%-d %B %Y"

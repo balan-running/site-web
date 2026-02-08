@@ -224,8 +224,16 @@ body:not(.layout--splash) {
   margin-top: 15px;        /* Remonte l'image pour s'aligner au texte */
 }
 
+.responsive-img2 {
+  &[style*="float: left"] { margin-right: 15px; margin-top: 1.5em; }      /* Espace entre l'image et le texte à droite */
+  &[style*="float: right"] { margin-left: 15px; margin-top: 5px; }
+  margin-bottom: 5px;     /* Espace en dessous */
+  width: 35%;              /* Largeur par défaut */
+  min-width: 300px;        /* Largeur minimale (force brute) */
+}
+
 @media screen and (max-width: 600px) {
-  .responsive-img {
+  .responsive-img, .responsive-img2 {
     width: 100% !important;      /* Prend toute la largeur */
     float: none !important;      /* Annule l'alignement gauche */
     display: block !important;   /* Force le bloc */
