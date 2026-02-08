@@ -119,4 +119,4 @@ sidebar:
   </form>
 </div>
 
-**Les actus précédentes se trouvent sur [notre ancien site web](https://ascbalan.athle.fr/).**
+**Les actus plus anciennes se trouvent sur [notre ancien site web](https://ascbalan.athle.fr/).**
