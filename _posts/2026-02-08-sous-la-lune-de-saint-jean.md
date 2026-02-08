@@ -8,7 +8,7 @@ tags:
   - nature
 ---
 
-![]({{ site.baseurl }}/assets/images/posts/2026-02-08_1.jpeg){: .responsive-img2 style="float: left; width: 40%;" }
+![]({{ site.baseurl }}/assets/images/posts/2026-02-08_1.jpeg){: .responsive-img2 .pull-left style="width: 40%;" }
 
 Nous étions cinq de L’ASC BALAN à prendre le départ du 10 km en nocturne de la septième édition « Sous la Lune de Saint Jean » à St Jean de Niost, ce samedi soir. Le temps était idéal pour courir et le parcours n’était pas trop gras malgré les pluies des jours précédents, même si les chaussures de trail étaient indispensables.
 
@@ -16,7 +16,7 @@ Comme chaque année, la bonne humeur et l’ambiance sont de mise, et la proximi
 
 La voix du speaker et les premières lumières sont les signes que l’arrivée est proche. Après quelques dernières courbes, nous retrouvons le goudron pour un ultime effort avant de franchir la ligne. La fraîcheur étant tombée, nous avons grandement apprécié la soupe à l’oignon offerte par l’organisation.
 
-![]({{ site.baseurl }}/assets/images/posts/2026-02-08_2.jpeg){: .responsive-img2 style="float: right; width: 55%;" }
+![]({{ site.baseurl }}/assets/images/posts/2026-02-08_2.jpeg){: .responsive-img2 .pull-right style="width: 55%;" }
 
 ### Les résultats de l'ASC BALAN :
 

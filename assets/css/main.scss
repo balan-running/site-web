@@ -225,11 +225,21 @@ body:not(.layout--splash) {
 }
 
 .responsive-img2 {
-  &[style*="float: left"] { margin-right: 15px; margin-top: 1.5em; }      /* Espace entre l'image et le texte à droite */
-  &[style*="float: right"] { margin-left: 15px; margin-top: 5px; }
-  margin-bottom: 5px;     /* Espace en dessous */
-  width: 35%;              /* Largeur par défaut */
-  min-width: 300px;        /* Largeur minimale (force brute) */
+  width: 35%;
+  min-width: 300px;
+  margin-bottom: 5px;
+
+  &.pull-left {
+    float: left;
+    margin-right: 15px;
+    margin-top: 1.5em;
+  }
+
+  &.pull-right {
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width: 600px) {

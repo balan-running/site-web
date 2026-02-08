@@ -8,7 +8,7 @@ tags:
   - trail
 ---
 
-![]({{ site.baseurl }}/assets/images/posts/2025-06-07_1.jpg){: .responsive-img2 style="float: left; width: 50%;" }
+![]({{ site.baseurl }}/assets/images/posts/2025-06-07_1.jpg){: .responsive-img2 .pull-left style="width: 50%;" }
 
 Comme d’habitude, la participation à une course est pour moi d’abord une découverte d’un nouveau lieu voire d’une nouvelle région...
 
