@@ -11,6 +11,7 @@ logo: "/assets/images/logo-balan2.png"
 #baseurl: "/site-web"
 url: "https://balan-running.fr"
 baseurl: ""
+#announcement: "🏃 Inscriptions ouvertes pour le [Sentier des Lônes](https://ascbalanlesentierdeslones.wordpress.com/) ! 🏃"
 
 # --- Paramètres de construction ---
 markdown: kramdown

@@ -1,0 +1,17 @@
+{% if site.announcement %}
+<style>
+.announcement-bar {
+  background: rgb(255, 230, 35);
+  color: rgb(191, 61, 206);
+  text-align: center;
+  padding: 0.3em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.announcement-bar a { color: rgb(191, 61, 206) !important; }
+.announcement-bar p { margin: 0; }
+</style>
+<div class="announcement-bar">
+  {{ site.announcement | markdownify }}
+</div>
+{% endif %}
