@@ -27,4 +27,4 @@ Pour les nouveaux licenciés, le nouveau maillot du club *2025* (manches courtes
 Vous pouvez également en acheter un supplémentaire pour 35€.
 
 ![]({{ site.baseurl }}/assets/images/maillots.jpg){: .responsive-img style="width: 48%;" }
-![]({{ site.baseurl }}/assets/images/débardeurs.jpg){: .responsive-img style="width: 42%;" }
+![]({{ site.baseurl }}/assets/images/debardeurs.jpg){: .responsive-img style="width: 42%;" }
