@@ -163,48 +163,66 @@ body:not(.layout--splash) {
       padding: 0 !important;
       box-sizing: border-box !important;
 
-      /* GRILLE CÔTE À CÔTE */
+      /* GRILLE CÔTE À CÔTE (3 COLONNES) */
       display: grid !important;
-      grid-template-columns: 1fr 1fr !important;
-      column-gap: 20px !important;
+      grid-template-columns: 1fr 1fr 1fr !important; /* 3 colonnes de taille égale */
+      column-gap: 10px !important; /* Un peu réduit pour laisser respirer les 3 blocs */
       row-gap: 5px !important;
       grid-template-rows: auto auto auto !important;
 
       /* Styles internes */
       img {
-        width: auto !important;
-        max-height: 350px !important;
+        width: 100% !important; /* Force l'image à s'adapter à la colonne */
+        max-width: 150px !important; /* Évite que ça devienne énorme sur tablette */
+        max-height: 250px !important;
         height: auto !important;
         margin: 0 auto !important;
         display: block !important;
+        object-fit: contain !important; /* Garde les proportions de l'image */
       }
 
       h3 {
         font-size: 0.85em !important;
         text-align: center !important;
-        margin: 5px 0 !important;
+        /* On ajoute de l'espace au-dessus (10px) et en dessous (5px) */
+        margin: 10px 0 5px 0 !important;
+        /* Le padding horizontal empêche le texte de toucher les bords */
+        padding: 0 10px !important;
         width: 100% !important;
+        box-sizing: border-box !important; /* Important pour que le padding ne casse pas la largeur */
         overflow-wrap: break-word !important;
       }
 
       p {
         font-size: 0.75em !important;
         text-align: center !important;
+        /* On ajoute de l'espace en dessous (15px) pour séparer de la suite */
+        margin: 0 0 15px 0 !important;
+        /* Même padding horizontal que le h3 pour aligner les bords invisibles */
+        padding: 0 10px !important;
         line-height: 1.2 !important;
         width: 100% !important;
+        box-sizing: border-box !important; /* Important ici aussi */
         overflow-wrap: break-word !important;
         word-wrap: break-word !important;
         hyphens: auto !important;
       }
 
       /* PLACEMENT MANUEL */
+      /* Élément 1 */
       img:nth-of-type(1) { grid-column: 1 !important; grid-row: 1 !important; }
       h3:nth-of-type(1)  { grid-column: 1 !important; grid-row: 2 !important; }
       p:nth-of-type(1)   { grid-column: 1 !important; grid-row: 3 !important; }
 
+      /* Élément 2 */
       img:nth-of-type(2) { grid-column: 2 !important; grid-row: 1 !important; }
       h3:nth-of-type(2)  { grid-column: 2 !important; grid-row: 2 !important; }
       p:nth-of-type(2)   { grid-column: 2 !important; grid-row: 3 !important; }
+
+      /* Élément 3 (AJOUTÉ) */
+      img:nth-of-type(3) { grid-column: 3 !important; grid-row: 1 !important; }
+      h3:nth-of-type(3)  { grid-column: 3 !important; grid-row: 2 !important; }
+      p:nth-of-type(3)   { grid-column: 3 !important; grid-row: 3 !important; }
     }
 
     .page__content img.align-left {

@@ -3,6 +3,9 @@ title: "Actualités du club"
 permalink: /actus/
 layout: posts
 sidebar:
+  - title: "Le Bielleur 2024-2025"
+    image: "/assets/images/bielle-2026.jpg"
+    text: "Félicitations à Didier, élu lors de l'AG de début 2026, pour l'ensemble de son œuvre !<br><br>"
   - title: "La Bielleuse 2023-2024"
     image: "/assets/images/bielle-2025.jpg"
     text: "Félicitations à Sylvie, élue lors de l'AG de début 2025, pour l'ensemble de son œuvre&nbsp;!<br><br>"
