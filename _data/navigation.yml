@@ -12,8 +12,8 @@ main:
     url: /adhesion/
   - title: "Guide"
     url: "https://privefl.github.io/guideascbalan/"
-  # - title: "Course SdL"
-  #   url: /course/
+  - title: "Course SdL"
+    url: /course/
   - title: "Records"
     url: /records/
   - title: "Asso"
