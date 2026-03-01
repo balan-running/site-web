@@ -48,3 +48,14 @@ Vous retrouverez dans ce calendrier le programme des entraînements du mardi et 
   </div>
 
 </div>
+
+***
+
+Le tableau des entraînements :
+
+<iframe 
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRCm6estJDhLjGqiCkRDPoyV7yKphKMfvplJeKucvtLmQJy_5YIYmEfFzAuuAZKZD6y4si3EllWVOSy/pubhtml?gid=1369293209&single=true&amp;widget=true&amp;headers=false&amp;chrome=false" 
+  width="100%" 
+  height="300" 
+  style="border: none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+></iframe>
