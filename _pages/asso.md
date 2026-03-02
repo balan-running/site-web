@@ -107,4 +107,5 @@ Tous ces dirigeants assurant la bonne marche du club.
 
 ## Les Statuts
 
-[A VENIR UNE FOIS MODIFIES LEGEREMENT ET APPROUVES A L'AG]
+[PDF avec les statuts](/assets/statuts-ascbalan.pdf){: .btn .btn--info} 
+
