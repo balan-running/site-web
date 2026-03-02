@@ -31,7 +31,8 @@ Direction l'étiopathe de Niévroz pour tout débloquer et changement de chaussu
 Est ensuite venue la fameuse période d'affûtage où il faut réduire le volume pour arriver frais le jour J. C'est toujours un peu frustrant car on a l'impression de se désentraîner, mais j'ai fait confiance au process (en ajoutant de petites sorties marche "gratuites" pour me bouger sans taper dans les réserves).
 
 ### 🏃‍♂️ Le Jour J : sur un nuage
-Le matin de la course, malgré une mauvaise nuit, les sensations sont bonnes. On fait une photo avec la team (nous étions plus d'une dizaine de l'ASC Balan au départ !), et c'est parti.
+Le matin de la course, malgré une mauvaise nuit, les sensations sont bonnes. 
+On fait une photo avec la team (nous étions 14 de l'ASC Balan au départ du 10 et du semi !), et c'est parti.
 
 ![]({{ site.baseurl }}/assets/images/posts/2026-03-02_4.jpeg){: width="100%" }
 
