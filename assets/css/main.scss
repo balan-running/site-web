@@ -110,7 +110,7 @@ body:not(.layout--splash) {
     }
 
     /* C. LE TEXTE à Gauche */
-    .archive, .page {
+    .archive, .page, .page__related {
       float: left !important;
       width: 80% !important;
       padding-right: 0 !important;
