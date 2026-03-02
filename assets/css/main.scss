@@ -274,3 +274,11 @@ body:not(.layout--splash) {
     min-width: 0 !important;     /* Annule la limite minimum */
   }
 }
+
+
+
+/* ESPACEMENT ENTRE LES ARTICLES (PAGE ACTUS) */
+.list__item,
+.grid__item {
+  margin-bottom: 15px !important; /* Augmentez ou diminuez cette valeur selon vos goûts */
+}
