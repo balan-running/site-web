@@ -3,11 +3,9 @@ title: "Championnat départemental de cross"
 date: 2026-01-13
 author: "Patrick B."
 categories:
-  - recit
+  - course
 tags:
   - cross
-  - course
-  - equipe
 ---
 
 Stéphane F., Didier S., Gilles S., Édouard F. et moi-même (Patrick B.) avons répondu à l’appel pour participer au championnat départemental de cross le dimanche 11 janvier 2026. Au menu du jour : la course Cross Long de 7 930 mètres, réunissant les Seniors et Masters !
