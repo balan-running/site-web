@@ -9,8 +9,10 @@ tags:
 ---
 
 Le semi de Bourg-en-Bresse est devenu mon objectif principal de l'année. C'est la troisième fois consécutive que j'y participe et je l'affectionne tout particulièrement pour deux raisons :
-- Ça finit toujours par un gros record personnel pour moi ! 🚀
 - Ça me permet de rester motivé à m'entraîner tout l'hiver quand il fait froid et humide. 🥶🌧️
+- Ça finit toujours par un gros record personnel pour moi ! 🚀
+    ![]({{ site.baseurl }}/assets/images/posts/progression-semi-florian.png){: width="90%" style="margin-top: 10px;" }
+
 
 ### 📉 La genèse : sortir du creux de la vague
 Après le semi de Dole en octobre, où j'avais pas mal galéré et pas très bien performé (passé de 1h29'10" sur semi de Bourg début mars 2025 à seulement 1h27'36"), j'ai eu un gros coup de mou. Après quelques semaines de creux, j'ai pris une décision radicale pour changer de dynamique et retrouver la motivation : je suis passé à 80% au travail dès le mois de décembre. L'objectif ? Me débloquer mes lundis pour y caler une sortie longue qui lancerait ma motivation pour le reste de la semaine.
