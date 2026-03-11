@@ -11,6 +11,8 @@ header:
 
 Club de course à pied route (et trail) à Balan (01), affilié FFA (001002).
 
+[Voir nos dernières actus](/actus/){: .btn .btn--info }
+
 ## Présentation du Club
 
 Fondé en **1977** par Jean-Claude et Françoise Robert, l'**ASC Balan Athlétisme** est avant tout une aventure humaine axée sur le **relationnel** et la **convivialité**. Que vous soyez compétiteur ou coureur loisir, notre structure vous accueille pour partager notre passion commune.
