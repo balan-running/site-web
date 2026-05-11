@@ -8,6 +8,7 @@ tags:
   - trail
 ---
 
+![]({{ site.baseurl }}/assets/images/posts/2026-05-10_1.jpeg){: .responsive-img2 .pull-left width="28%" }
 Prépa un peu solitaire pour la première fois. Ça change, vraiment différent. Pas forcément ce que je préfère, mais agréable tout de même. Besoin de me prouver des choses peut-être.
 
 Gros mal de cuisses pour la reprise du dénivelé, un mois avant et super bien passé ensuite. Des cailloux, des orties et des ronces pour avoir de belles jambes griffées pour l'été. Une prépa tout en chaleur, pour courir agréablement la course par 15° 😅
