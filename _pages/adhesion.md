@@ -11,15 +11,16 @@ Si vous êtes convaincus, demandez le formulaire d'adhésion par email ; il y a 
 
 **Option A**
   - une simple **adhésion au club : 70 €**
-  - *permet de bénéficier de toutes les activités proposées par le club (+ assurance).*
+  - *permet de bénéficier de toutes les activités proposées par le club (+ assurance)*
+  - pour participer à des courses, il suffira d'établir son PPS (parcours prévention santé) sur https://pps.athle.fr/ au prix de 5€ et valable 1 an.
 
 **Option B**
   - une adhésion avec **licence FFA loisir option running : 110 €**
-  - *permet en plus d'être affilié FFA, mais ne permet pas d'être classé lors des championnats organisés par la FFA.*
+  - *permet en plus d'être affilié FFA, de participer à toutes les courses, mais ne permet pas d'être classé lors des championnats organisés par la FFA.*
 
 **Option C**
   - une adhésion avec **licence FFA compétition : 140 €**
-  - *permet en plus de participer aux championnats organisés par la FFA et d’être classé.*
+  - *permet en plus d’être classé lors des championnats organisés par la FFA.*
 
 <br>
 
