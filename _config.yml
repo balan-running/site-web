@@ -12,6 +12,7 @@ logo: "https://guide.balan-running.fr/images/logo-ASC-Balan.png"
 url: "https://balan-running.fr"
 baseurl: ""
 #announcement: "🏃 Inscriptions ouvertes pour le [Sentier des Lônes](https://ascbalanlesentierdeslones.wordpress.com/) ! 🏃"
+announcement: "Yves champion de France du 100K 🥇"
 
 # --- Paramètres de construction ---
 markdown: kramdown

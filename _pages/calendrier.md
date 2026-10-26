@@ -3,7 +3,7 @@ title: "Calendrier"
 permalink: /agenda/
 ---
 
-[Programme Excel des entraînements (du 16-2-2026 au 25-10-2026)](/assets/programmes/entrainement_du_16-2-2026_au_25-10-2026.xls){: .btn .btn--info} 
+<!-- [Programme Excel des entraînements (du 16-2-2026 au 25-10-2026)](/assets/programmes/entrainement_du_16-2-2026_au_25-10-2026.xls){: .btn .btn--info} -->
 
 Vous retrouverez dans le calendrier ci-dessous le programme des entraînements du mardi et du jeudi, ainsi que les courses du coin, et les évènements du club.
 
