@@ -7,7 +7,7 @@ permalink: /adhesion/
 
 Vous pouvez commencer par contacter notre président (par email ou téléphone) pour un premier contact, et venir essayer 2--3 séances.
 
-Si vous êtes convaincus, demandez le formulaire d'adhésion par email ; il y a 3 types d'adhésion proposés (saison 2025--2026) :
+Si vous êtes convaincus, demandez le formulaire d'adhésion par email ; il y a 3 types d'adhésion proposés (saison 2026--2027) :
 
 **Option A**
   - une simple **adhésion au club : 70 €**
