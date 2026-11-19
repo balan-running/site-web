@@ -5,9 +5,9 @@ permalink: /adhesion/
 
 # Rejoindre notre club
 
-Vous pouvez commencer par contacter notre président (par email ou téléphone) pour un premier contact, et venir essayer 2--3 séances.
+Vous pouvez commencer par [contacter notre président](https://balan-running.fr/#-contact) pour un premier contact, et venir essayer 2--3 séances.
 
-Si vous êtes convaincus, demandez le formulaire d'adhésion par email ; il y a 3 types d'adhésion proposés (saison 2026--2027) :
+Si vous êtes convaincus, [demandez le formulaire d'adhésion par email](mailto:florian.prive.21@gmail.com) ; il y a 3 types d'adhésion proposés (saison 2026--2027) :
 
 **Option A**
   - une simple **adhésion au club : 70 €**
